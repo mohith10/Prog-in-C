@@ -1,25 +1,24 @@
-/* 
-Q. Write a program to find the quotient of an integer number without using ‘/’ operator.
-
+/*
+Q. Write a program to test if the number input is positive, negative or zero.
 */
+
 
 #include<stdio.h>
 
 int main()
 {
- 	int a,n,count=0;
+ 	int n;
 	printf("\n Enter a no: ");
-	scanf("%d",&a);
-	printf("\n Enter by which no you want to divide: ");
 	scanf("%d",&n);
-	
-	while(a>0)
+	if(n>0)
 	{
-	a=a-n;
-	count++;
+	printf("It is a positive no\n");
 	}
-	printf("Quotient is : %d \n",count);
+	else if (n<0)
+	printf("It is a negative no\n");
+	else 
+	printf("No IS zero !!\n ");
 	return 0;
-	
 }
 
+	
