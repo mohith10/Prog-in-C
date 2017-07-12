@@ -1,6 +1,24 @@
 /*
 Program using ARRAY
 AUTHOR: Mohit Hooda
+Q.Create an Integer array A of size 15. Write functio
+ns to perform the following 
+operations on the array: 
+a)Insert element into array next to the last occupied 
+b)Delete the last inserted element. 
+c)Check if the array is completely occupied. 
+d)Check if the array is empty. 
+e)Display the content of the array 
+Write a main program to insert two more elements in
+to the array A, delete 5 
+elements, and check the empty and full conditions o
+f the array. After each 
+insertion and deletion operation display the conten
+ts of the array. 
+
+Sample Array A=[5,10,15,20,25,30,35,40,45,50] 
+After calling function insert(100) a) A=[5,10,15,20,25,30,35,40,45,50,100] 
+After calling function delete() b) A=[5,10,15,20,25,30,35,40,45,50] 
 */
 
 
